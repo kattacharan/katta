@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admission</title>
+</head>
+
+<header>
+    <img src="vit.png"  width="200px" alt="College Logo">
+    <h1>Vellore Institute of Technology</h1> 
+</header>
+<body>
+    
+    <div class="dropdown">
+        <button class="dropdown-button">Menu &#9660;</button>
+        <ul class="dropdown-menu">
+            <li><a href="webpage.html">Home</a></li>
+            <li><a href="academic.html">Academics</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="gall.html">Gallery</a></li>
+        </ul>
+    </div>
+    <div class="asd">
+    <div class="info-container">
+        
+        <form class="info-form" action="/action.php">
+            <table>
+                <h2>BIO-DATA</h2>
+                <tr>
+                    <td><label for="firstName">First name:</label></td>
+                    <td><input type="text" id="firstName" name="firstName" placeholder="Enter First name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName">Last name:</label></td>
+                    <td><input type="text" id="lastName" name="lastName" placeholder="Enter Last name" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dob">D-O-B:</label></td>
+                    <td><input type="date" id="dob" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td><label for="branch">Branch:</label></td>
+                    <td>
+                        <select id="branch" name="branch">
+                            <option value="MIC">CSE</option>
+                            <option value="MID">EEE</option>
+                            <option value="MIS">MEC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="cgpa">CGPA:</label></td>
+                    <td><input type="number" id="cgpa" name="cgpa" step="0.01"></td>
+                </tr>
+                <tr>
+                    <td><label for="percentage">Percentage (%):</label></td>
+                    <td><input type="number" id="percentage" name="percentage" step="0.01"></td>
+                </tr>
+                <tr>
+                    <td><label>Hobbies:</label></td>
+                    <td>
+                        <input type="checkbox" id="outdoorGames" name="hobbies[]" value="Outdoor Games">
+                        <label for="outdoorGames">Playing outdoor games</label><br>
+                        
+                        <input type="checkbox" id="readingBooks" name="hobbies[]" value="Reading Books">
+                        <label for="readingBooks">Reading books</label><br>
+                        
+                        <input type="checkbox" id="watchingMovies" name="hobbies[]" value="Watching Movies">
+                        <label for="watchingMovies">Watching movies</label><br>
+                        
+                        <input type="checkbox" id="browsingTrends" name="hobbies[]" value="Browsing Trends">
+                        <label for="browsingTrends">Browsing trends</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" align="center">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<br>
+</main>
+
+<footer>
+        <p>&copy; 2023 Vellore Institute of Technology,Vellore. All rights reserved.</p>
+</footer>
+</body>
+
+</html>

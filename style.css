@@ -1,0 +1,153 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgba(210, 205, 205, 0.404);
+    color: #ffffff;
+    padding: 10px;
+   
+} body{
+    background: linear-gradient(to bottom,  #52eb66,#82c2ec,#303952);
+
+}
+/* Navigation styles with hover effect */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #95b0f0;
+    padding: 20px 0;
+}
+
+nav li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav a {
+    color: #303952;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Sub-navigation styles */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #eed9d8;
+    padding: 10px;
+}
+
+/* Body styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Your Chosen Font', Arial, sans-serif; /* Add your preferred font here */
+}
+
+/* Admissions button styles */
+.admissions-button {
+    background-color: #f9ca24;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none; /* Remove underline from button link */
+    display: inline-block; /* Prevents the button from taking the full width */
+}
+
+.admissions-button:hover {
+    background-color: #303952;
+}
+
+
+/* Dropdown button styles */
+.dropdown-button {
+    background-color: #f6b7b3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dropdown-button:hover {
+    background-color: #f9ca24;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #efb4af;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Dropdown menu item styles */
+.dropdown-menu li {
+    margin: 5px 0;
+}
+
+.dropdown-menu a:hover {
+    color: #ffffff;
+}
+
+/* Main content styles */
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+.asd
+    {
+        height: 380px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .info-container{
+        justify-items: center;
+        width: 400px;
+        border-radius: 15px;
+        background-color:rgb(162, 211, 241);
+        padding-left: 50px;
+    }
+
+/* Footer styles */
+footer {
+    background-color: rgb(210, 205, 205);
+    color: #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    margin-top: 25vh;
+}
